@@ -7,14 +7,11 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
-public class JobAppSpringApplication extends SpringBootServletInitializer {
+public class JobAppSpringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JobAppSpringApplication.class, args);
 	}
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(JobAppSpringApplication.class);
-	}
+
 
 }

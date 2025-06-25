@@ -11,7 +11,6 @@
 	<groupId>com.red</groupId>
 	<artifactId>JobAppSpring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>JobAppSpring</name>
 	<description>Demo project for Job app by Spring Boot</description>
